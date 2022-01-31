@@ -1,0 +1,84 @@
+<resources>
+
+
+    <!-- LOGIN ACTIVITY -->
+    <string name="login_account">Login Account</string>
+    <string name="login_caption">Enter the following information\nso we can identify you.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forgot password ?</string>
+    <string name="login_btn">SIGN IN</string>
+    <string name="login_bottom">Dont have an account ?</string>
+    <string name="register">SIGN UP</string>
+    <string name="my_logo_description">Logo</string>
+
+    <string name="already_have_a_account">Already have a account ?</string>
+
+    <string name="app_name">UNME</string>
+    <string name="login">Login</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="signup"><u>Sign up</u></string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="forget_password_title">Enter the email address\nassociated with your account.</string>
+    <string name="forget_password_caption">We will email you a link to reset\nyour password</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="send_verification_code">Send Verification Code</string>
+    <string name="account_login">Account Login</string>
+
+    <!-- sidebar MENU -->
+    <string name="home">Home</string>
+    <string name="food">Food</string>
+    <string name="restaurant">Restaurants</string>
+    <string name="area">Area</string>
+    <string name="account">My Account</string>
+    <string name="others"></string>
+    <string name="card">Card</string>
+    <string name="order">Order</string>
+    <string name="contact">Contact Us</string>
+    <string name="aboutUs">About As</string>
+    <string name="feedback">Feedback</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- home activity -->
+    <string name="explore">Explore Menu</string>
+    <string name="category">Categories</string>
+    <string name="for_one">For One</string>
+    <string name="deals">Deals</string>
+    <string name="for_sharing">For Sharing</string>
+    <string name="side_amp_desserts"><![CDATA[Side & Desserts]]></string>
+    <string name="beverages">Beverages</string>
+    <string name="first_fragment_label" />
+    <string name="second_fragment_label" />
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="submit_feedback">Submit your feedback</string>
+    <string name="tell_us">Your feedback is valuable to us.Tell us about your experience!</string>
+    <string name="reason">REASON</string>
+    <string name="description">Description</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="submit">SUBMIT</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="hint_resource">Hint</string>
+    <string name="unme_restautant">UNME Restautant</string>
+    <string name="version">Version 1.0.0</string>
+    <string name="copyright">© 2021-2022 UNME Inc</string>
+    <string name="by_najib_soukaina">By NAJIB Soukaina</string>
+    <string name="full_name_caption">This is how you appear to your friends,\n Please provide your first and last name.</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit_email_caption">This makes it easier for you to recover your account,\n Please, use a valid email !</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="edit_password_caption">To set a new password,\n please enter your current password first.</string>
+    <string name="edit_username_caption">This is how you appear to your friends,\n so pick a username your friends know you by.</string>
+    <string name="copyright_unme_restaurant_maroc_2021">© Copyright UNME Restaurant Maroc 2021</string>
+
+
+    // Reason spinner
+    <string-array name="reason">
+        <item>Payment</item>
+        <item>Offers</item>
+        <item>Location</item>
+        <item>Menu</item>
+        <item>Other</item>
+    </string-array>
+</resources>

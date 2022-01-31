@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "645678446904",
+    "project_id": "unme-b97c8",
+    "storage_bucket": "unme-b97c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645678446904:android:d8971f70b703b7b5d1e9cd",
+        "android_client_info": {
+          "package_name": "com.example.unme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645678446904-gqrqbubscuch2c6dnnih2al49qqtq7jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy8vP5-odSCTyJbLzcPhf7ACEU0jK79v0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645678446904-gqrqbubscuch2c6dnnih2al49qqtq7jl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

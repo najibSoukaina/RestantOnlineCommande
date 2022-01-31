@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include layout="@layout/activity_slide_show"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="@string/explore"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/darkBlue">
+            </TextView>
+            <include layout="@layout/explore_menu"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="@string/category"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/darkBlue">
+
+            </TextView>
+          <include layout="@layout/category_list"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/BlueLight"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_marginTop="-30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                app:srcCompat="@drawable/logo_transparent" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="-26dp"
+                android:text="@string/copyright_unme_restaurant_maroc_2021" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

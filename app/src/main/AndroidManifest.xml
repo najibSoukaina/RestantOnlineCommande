@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.unme">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UNME">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+        <activity android:name=".app.userAccount.FullName" />
+        <activity android:name=".app.userAccount.EditEmail" />
+        <activity android:name=".app.userAccount.EditPassword" />
+
+        <activity
+            android:name=".app.vue.SlideShowActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".app.categories.Burger"
+            android:exported="false" />
+        <activity
+            android:name=".app.categories.Pizza"
+            android:exported="false" />
+        <activity
+            android:name=".app.categories.IceCream"
+            android:exported="false" />
+        <activity
+            android:name=".app.categories.Coffee"
+            android:exported="false" />
+        <activity
+            android:name=".app.vue.authentification.ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".app.vue.authentification.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".app.vue.Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".app.vue.authentification.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".app.MainActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".app.vue.OpenAppActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

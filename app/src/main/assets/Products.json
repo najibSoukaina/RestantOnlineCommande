@@ -1,0 +1,282 @@
+[
+  {
+    "desination": "Box Meal "  ,
+    "descreption": "2 Twister Sandwices + Frites + 1 Cookie "  ,
+    "image": "deals"  ,
+    "price": "27.00"  ,
+    "category": "Deals"
+  },
+  {
+    "desination": "Messy Burger "  ,
+    "descreption": "Lettuce + Tomato "  ,
+    "image": "deals"  ,
+    "price": "19.00"  ,
+    "category": "Deals"
+  },
+  {
+    "desination": "Messy Burger Regular Fries Cobo"  ,
+    "descreption": "Messy Burger + Medium Fries + Meduim Drink"  ,
+    "image": "deals"  ,
+    "price": "30.00"  ,
+    "category": "Deals"
+  },
+  {
+    "desination": "Charger Party Parck"  ,
+    "descreption": "4 Twister Charger + Family Frites + 1.25L Drink "  ,
+    "image": "deals"  ,
+    "price": "42"  ,
+    "category": "Deals"
+  },
+  {
+    "desination": "Double Fiery Twister"  ,
+    "descreption": "2 Twister Sandwiches + Fries + Drink + 2 Strips"  ,
+    "image": "deals"  ,
+    "price": "25"  ,
+    "category": "Deals"
+  },
+  {
+    "desination": "Strips and Dips"  ,
+    "descreption": "2 Twister Sandwices + Frites + 1 Cookie "  ,
+    "image": "deals"  ,
+    "price": "27"  ,
+    "category": "Deals"
+  },
+  {
+    "desination": "Box Meal "  ,
+    "descreption": "2 Twister Sandwices + Frites + 1 Cookie "  ,
+    "image": "deals"  ,
+    "price": "27.00"  ,
+    "category": "Deals"
+  },
+  {
+    "desination": "Messy Burger "  ,
+    "descreption": "Lettuce + Tomato "  ,
+    "image": "deals"  ,
+    "price": "19.00"  ,
+    "category": "Deals"
+  },
+
+
+
+
+
+
+  {
+    "desination": "Dipping Box "  ,
+    "descreption": "2 pcs of chicken,2pcs of strips "  ,
+    "image": "forone"  ,
+    "price": "32"  ,
+    "category": "For One"
+  },
+  {
+    "desination": "DIPPING BOX"  ,
+    "descreption": "2 Chicken pcs., 3 crispy chicken strips + 2 Sauces + Fries"  ,
+    "image": "forone"  ,
+    "price": "45"  ,
+    "category": "For One"
+  },
+  {
+    "desination": "TWISTER CHARGER"  ,
+    "descreption": "Twister Charger Sandwich + Regular Fries + Drink"  ,
+    "image": "forone"  ,
+    "price": "18"  ,
+    "category": "For One"
+  },
+  {
+    "desination": "DINNER MEAL"  ,
+    "descreption": "3pcs Chicken + Fries + Coleslaw + Bun + Drink"  ,
+    "image": "forone"  ,
+    "price": "25.5"  ,
+    "category": "For One"
+  },
+  {
+    "desination": "BIG FILLER BOX"  ,
+    "descreption": "Big Filler Sandwich + 1pc Chicken + Fries + Coleslaw + Drink"  ,
+    "image": "forone"  ,
+    "price": "26"  ,
+    "category": "For One"
+  },
+  {
+    "desination": "ZINGER BOX MEAL"  ,
+    "descreption": "Zinger Sandwich + 1pc Chicken + Fries + Coleslaw + Drink"  ,
+    "image": "forone"  ,
+    "price": "32"  ,
+    "category": "For One"
+  },
+
+
+
+  {
+    "desination": "Mega Deal "  ,
+    "descreption": " 12 pcs Chiken + 4 Buns"  ,
+    "image": "forshare"  ,
+    "price": "39"  ,
+    "category": "For Sharing"
+  },
+  {
+    "desination": "2 + 2 = 2"  ,
+    "descreption": " 2 Twister Sandwiches + Fries + Drink + 2 Strips"  ,
+    "image": "forshare"  ,
+    "price": "35"  ,
+    "category": "For Sharing"
+  },
+  {
+    "desination": "SUPER DINNER"  ,
+    "descreption": "4pcs Chicken + Fries + Coleslaw + Bun + Drink"  ,
+    "image": "forshare"  ,
+    "price": "39"  ,
+    "category": "For Sharing"
+  },
+  {
+    "desination": "MIX IT UP "  ,
+    "descreption": "2pc Chicken + Fries + Bun + 3 Strips + Drink"  ,
+    "image": "forshare"  ,
+    "price": "28"  ,
+    "category": "For Sharing"
+  },
+  {
+    "desination": "12 PCS STRIPS & DIPS"  ,
+    "descreption": " 12 pcs Chiken + 4 Buns"  ,
+    "image": "forshare"  ,
+    "price": "43"  ,
+    "category": "For Sharing"
+  },
+  {
+    "desination": "Mega Deal "  ,
+    "descreption": "12 Strips + Family Fries + Large Coleslaw + Buns + 1 Ltr Drink + 4 sauces"  ,
+    "image": "forshare"  ,
+    "price": "46"  ,
+    "category": "For Sharing"
+  },
+  {
+    "desination": "Mega Deal "  ,
+    "descreption": " 12 pcs Chiken + 4 Buns"  ,
+    "image": "forshare"  ,
+    "price": "39"  ,
+    "category": "For Sharing"
+  },
+
+
+
+  {
+    "desination": "RIZO"  ,
+    "descreption": "Regular or Medium "  ,
+    "image": "cake"  ,
+    "price": "12"  ,
+    "category": "Sides"
+  },
+  {
+    "desination": "Dynamite Sauce "  ,
+    "descreption": "Regular or Medium "  ,
+    "image": "cake"  ,
+    "price": "4"  ,
+    "category": "Sides"
+  },
+
+  {
+    "desination": "RICE "  ,
+    "descreption": "Regular or Medium "  ,
+    "image": "cake"  ,
+    "price": "6"  ,
+    "category": "Sides"
+  },
+
+  {
+    "desination": "FRIES"  ,
+    "descreption": "Regular or Medium "  ,
+    "image": "cake"  ,
+    "price": "6"  ,
+    "category": "Sides"
+  },
+
+  {
+    "desination": "BBQ SAUCE"  ,
+    "descreption": "Regular or Medium "  ,
+    "image": "cake"  ,
+    "price": "4"  ,
+    "category": "Sides"
+  },
+
+  {
+    "desination": "Sauce "  ,
+    "descreption": "Regular or Medium "  ,
+    "image": "cake"  ,
+    "price": "4"  ,
+    "category": "Sides"
+  },
+
+  {
+    "desination": "LOADED FRIES"  ,
+    "descreption": "Regular or Medium "  ,
+    "image": "cake"  ,
+    "price": "8"  ,
+    "category": "Sides"
+  },
+
+  {
+    "desination": "Dynamite Sauce "  ,
+    "descreption": "Regular or Medium "  ,
+    "image": "cake"  ,
+    "price": "4"  ,
+    "category": "Sides"
+  },
+
+
+
+  {
+    "desination": "Pepsi "  ,
+    "descreption": "Regular or Medium "  ,
+    "image": "beverages"  ,
+    "price": "7"  ,
+    "category": "Beverages"
+  },
+  {
+    "desination": "Lipton Ice Tea"  ,
+    "descreption": "40 cl"  ,
+    "image": "beverages"  ,
+    "price": "8"  ,
+    "category": "Beverages"
+  },
+  {
+    "desination": "Espresso"  ,
+    "descreption": "Regular or Medium "  ,
+    "image": "beverages"  ,
+    "price": "13"  ,
+    "category": "Beverages"
+  },
+  {
+    "desination": "Ultimate Cookie & Peanut Butter"  ,
+    "descreption": "Regular or Medium "  ,
+    "image": "beverages"  ,
+    "price": "13.6"  ,
+    "category": "Beverages"
+  },
+  {
+    "desination": "Orangina 1,5 L "  ,
+    "descreption": "Regular or Medium "  ,
+    "image": "beverages"  ,
+    "price": "11"  ,
+    "category": "Beverages"
+  },
+  {
+    "desination": "Lipton Ice Tea "  ,
+    "descreption": "1.5L"  ,
+    "image": "beverages"  ,
+    "price": "8"  ,
+    "category": "Beverages"
+  },
+  {
+    "desination": "7 UP Mojito "  ,
+    "descreption": "1,5 L"  ,
+    "image": "beverages"  ,
+    "price": "5"  ,
+    "category": "Beverages"
+  },
+  {
+    "desination": "Cappuccino",
+    "descreption": "Regular or Medium "  ,
+    "image": "beverages"  ,
+    "price": "7"  ,
+    "category": "Beverages"
+  }
+]

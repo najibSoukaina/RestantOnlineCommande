@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/explore_layout">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/alice_blue"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:text="@string/deals"
+                        android:textColor="@color/purple_700"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        />
+
+                    <ImageView
+                        android:id="@+id/deals"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_marginTop="-10dp"
+                        android:background="@drawable/deals" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingRight="12dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                app:cardCornerRadius="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/alice_blue"
+                    android:layout_marginBottom="4dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:text="@string/for_one"
+                        android:textColor="@color/purple_700"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        />
+                    <ImageView
+                        android:id="@+id/forone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="-45dp"
+                        android:background="@drawable/forone" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/alice_blue"
+                    android:layout_marginTop="4dp"
+
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="45dp"
+                        android:text="@string/side_amp_desserts"
+                        android:textColor="@color/purple_700"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="16dp"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        />
+                    <ImageView
+                        android:id="@+id/sides"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="-40dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/cake" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="12dp"
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp"
+                android:elevation="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/alice_blue"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:text="@string/for_sharing"
+                        android:textColor="@color/purple_700"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"/>
+                    <ImageView
+                        android:id="@+id/forshare"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-45dp"
+                        android:layout_marginBottom="-20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/forshare" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/purple_700"
+                app:cardCornerRadius="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/alice_blue"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:text="@string/beverages"
+                        android:textColor="@color/purple_700"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="18dp"
+                        android:gravity="center"/>
+
+                    <ImageView
+                        android:id="@+id/bev"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="-20dp"
+                        android:background="@drawable/beverages" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

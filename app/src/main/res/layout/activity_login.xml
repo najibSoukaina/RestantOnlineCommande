@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="@string/account_login"
+                    android:textColor="@color/purple_500"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="-30dp"
+                    android:src="@drawable/logo_transparent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/et_email"
+                    style="@style/input_field"
+                    android:layout_width="350dp"
+                    android:layout_height="52dp"
+                    android:layout_marginBottom="20dp"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+
+                <EditText
+                    android:id="@+id/et_password"
+                    style="@style/input_field"
+                    android:layout_width="350dp"
+                    android:layout_height="52dp"
+                    android:ems="10"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/forget_password"
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="end"
+                    android:onClick="forgetPassword"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/forget_password"
+                    android:textColor="@color/purple_700"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/LoginBtn"
+                    android:layout_width="130dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rounded_rectangle"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/login"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <LinearLayout
+                    android:id="@+id/layout_already_have_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="7"
+                    android:gravity="top|center"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bt_login">
+
+                    <TextView
+                        android:id="@+id/tv_already_have_account"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Already have an account?"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <Button
+                        android:id="@+id/signUpBtnLogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/poppins_bold"
+                        android:onClick="goToSignup"
+                        android:text="@string/register"
+                        android:textAllCaps="false"
+                        android:textColor="@color/purple_700"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+
+                        tools:ignore="UsingOnClickInXml" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/bottom_wave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_wave" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/m_home"
+        android:title="@string/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/m_food"
+        android:title="@string/food"
+        android:enabled="true"
+        android:icon="@drawable/ic_fastfood" />
+
+    <item
+        android:id="@+id/m_card"
+        android:title="@string/card"
+        android:enabled="true"
+        android:icon="@drawable/order" />
+
+    <item
+        android:id="@+id/m_order"
+        android:title="@string/order"
+        android:enabled="true"
+        android:icon="@drawable/checklist" />
+
+    <item
+        android:id="@+id/m_resto"
+        android:title="@string/restaurant"
+        android:enabled="true"
+
+        android:icon="@drawable/ic_place" />
+
+
+
+
+
+
+    <group android:id="@+id/main_drawer_menu2" android:checkableBehavior="single">
+
+
+           <item
+            android:id="@+id/m_account"
+            android:title="@string/account"
+            android:enabled="true"
+            android:icon="@drawable/user" />
+            <item
+                android:id="@+id/about_us"
+                android:title="@string/aboutUs"
+                android:enabled="true"
+                android:icon="@drawable/bt_about" />
+            <item
+                android:id="@+id/m_feedbak"
+                android:title="@string/feedback"
+                android:enabled="true"
+                android:icon="@drawable/rating" />
+
+
+    </group>
+
+</menu>

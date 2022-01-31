@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F4F6"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginBottom="20dp"
+       android:background="@color/white">
+       <ImageView
+           android:id="@+id/emoji"
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:layout_margin="20dp"
+           app:srcCompat="@drawable/emj0" />
+
+       <TextView
+           android:id="@+id/tvFeedback"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:gravity="center_horizontal"
+           android:text="@string/rate_us"
+           android:textSize="24dp"
+           android:fontFamily="@font/poppins_bold"
+           android:textColor="@color/purple_700" />
+
+       <RatingBar
+           android:id="@+id/rbStars"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:numStars="5"
+           android:progressBackgroundTint="@color/BlueLight"
+           android:progressTint="#FF9003"
+           tools:ignore="SpeakableTextPresentCheck" />
+   </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_feedback"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/purple_700"
+        android:textSize="14dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="13dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tell_us"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/black"
+            android:layout_marginBottom="18dp"
+            android:textSize="13dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/purple_500"
+            android:text="@string/reason"/>
+        <Spinner
+            android:id="@+id/spReason"
+            android:dropDownWidth="341dp"
+            android:layout_marginBottom="18dp"
+            style="@style/spinner_style"
+            android:paddingLeft="-0.5dp"
+            android:paddingRight="-5dp"
+
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/purple_500"
+            android:text="@string/description"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textSize="14dp"
+            android:lines="6"
+            android:padding="5dp" />
+
+
+        <Button
+            android:id="@+id/btnSendFB"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_rectangle"
+            android:text="@string/submit"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

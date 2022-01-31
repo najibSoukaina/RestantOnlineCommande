@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_wll"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:text="@string/unme_restautant"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/alice_blue"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:text="@string/version"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/logo_white" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="@string/by_najib_soukaina"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/alice_blue"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="@string/copyright"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/fb"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@drawable/facebook" />
+
+            <ImageView
+                android:id="@+id/insta"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@drawable/instagram" />
+
+            <ImageView
+                android:id="@+id/tg"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@drawable/telegram" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
